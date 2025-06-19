@@ -1,0 +1,481 @@
+[
+    {
+      "name": "Amazon Pay ICICI Credit Card",
+      "issuer": "ICICI",
+      "joining_fee": 0,
+      "annual_fee": 0,
+      "reward_type": "cashback",
+      "reward_rate": "5% cashback on Amazon, 1% elsewhere",
+      "perks": ["No annual fee", "Fuel surcharge waiver"],
+      "min_income": 20000,
+      "credit_score_required": 700,
+      "max_reward_cap": 5000
+    },
+    {
+      "name": "SBI Elite Credit Card",
+      "issuer": "SBI",
+      "joining_fee": 4999,
+      "annual_fee": 4999,
+      "reward_type": "travel",
+      "reward_rate": "2 reward points per ₹100",
+      "perks": ["Lounge access", "Movie tickets", "Club Vistara points"],
+      "min_income": 100000,
+      "credit_score_required": 740,
+      "max_reward_cap": 50000
+    },
+    {
+      "name": "Axis Bank Magnus Credit Card",
+      "issuer": "Axis Bank",
+      "joining_fee": 10000,
+      "annual_fee": 10000,
+      "reward_type": "travel",
+      "reward_rate": "12 Edge Reward Points per ₹200 spent",
+      "perks": ["Unlimited lounge access", "Dining offers", "Luxury hotel discounts"],
+      "min_income": 150000,
+      "credit_score_required": 750,
+      "max_reward_cap": 60000
+    },
+    {
+      "name": "HDFC Millennia Credit Card",
+      "issuer": "HDFC",
+      "joining_fee": 1000,
+      "annual_fee": 1000,
+      "reward_type": "cashback",
+      "reward_rate": "5% cashback on Amazon, Flipkart, and other partners",
+      "perks": ["Cashback redemption", "Fuel surcharge waiver"],
+      "min_income": 30000,
+      "credit_score_required": 720,
+      "max_reward_cap": 25000
+    },
+    {
+      "name": "ICICI Coral Credit Card",
+      "issuer": "ICICI",
+      "joining_fee": 500,
+      "annual_fee": 500,
+      "reward_type": "shopping",
+      "reward_rate": "2 reward points per ₹100 on retail spends",
+      "perks": ["Movie ticket discounts", "Airport lounge access (limited)"],
+      "min_income": 25000,
+      "credit_score_required": 700,
+      "max_reward_cap": 10000
+    },
+    {
+      "name": "Standard Chartered Ultimate Card",
+      "issuer": "Standard Chartered",
+      "joining_fee": 5000,
+      "annual_fee": 5000,
+      "reward_type": "travel",
+      "reward_rate": "5 reward points per ₹150 spent",
+      "perks": ["Lounge access", "Golf privileges", "Travel insurance"],
+      "min_income": 100000,
+      "credit_score_required": 740,
+      "max_reward_cap": 50000
+    },
+    {
+      "name": "RBL Bank Shoprite Credit Card",
+      "issuer": "RBL Bank",
+      "joining_fee": 500,
+      "annual_fee": 500,
+      "reward_type": "shopping",
+      "reward_rate": "5% cashback on groceries, 1% elsewhere",
+      "perks": ["Fuel surcharge waiver", "Shopping discounts"],
+      "min_income": 20000,
+      "credit_score_required": 680,
+      "max_reward_cap": 30000
+    },
+    {
+      "name": "AU Small Finance Bank Zenith+ Credit Card",
+      "issuer": "AU Bank",
+      "joining_fee": 999,
+      "annual_fee": 999,
+      "reward_type": "travel",
+      "reward_rate": "10x reward points on travel booking",
+      "perks": ["Lounge access", "Cashback offers"],
+      "min_income": 60000,
+      "credit_score_required": 730,
+      "max_reward_cap": 40000
+    },
+    {
+      "name": "YES Prosperity Edge Credit Card",
+      "issuer": "YES Bank",
+      "joining_fee": 399,
+      "annual_fee": 399,
+      "reward_type": "cashback",
+      "reward_rate": "4 reward points per ₹200 spent",
+      "perks": ["Fuel surcharge waiver", "Dining discounts"],
+      "min_income": 25000,
+      "credit_score_required": 700,
+      "max_reward_cap": 15000
+    },
+    {
+      "name": "HDFC Infinia Credit Card",
+      "issuer": "HDFC",
+      "joining_fee": 12500,
+      "annual_fee": 12500,
+      "reward_type": "travel",
+      "reward_rate": "5 points per ₹150 spent; 10X on HDFC SmartBuy",
+      "perks": [
+        "Unlimited international lounge access",
+        "Low forex mark-up (2%)",
+        "Unlimited golf sessions",
+        "Club Marriott membership",
+        "Dining perks via Good Food Trail",
+        "Fuel surcharge waiver"
+      ],
+      "min_income": 300000,
+      "credit_score_required": 775,
+      "max_reward_cap": 100000
+    },
+    {
+      "name": "American Express Platinum Card",
+      "issuer": "American Express",
+      "joining_fee": 66000,
+      "annual_fee": 66000,
+      "reward_type": "travel",
+      "reward_rate": "1 point per ₹40 spent; 3X international; 5X selected purchases",
+      "perks": [
+        "Elite hotel memberships",
+        "Global lounge access (1300+ lounges)",
+        "Exclusive access to events (Wimbledon, Grammy)",
+        "Golf privileges",
+        "Travel discounts on major airlines"
+      ],
+      "min_income": 500000,
+      "credit_score_required": 780,
+      "max_reward_cap": 450000
+    },
+    {
+      "name": "Axis Bank Burgundy Private Credit Card",
+      "issuer": "Axis Bank",
+      "joining_fee": 50000,
+      "annual_fee": 50000,
+      "reward_type": "lifestyle",
+      "reward_rate": "15 EDGE REWARD points per ₹200 spent",
+      "perks": [
+        "Dining and hotel privileges (Marriott, Accor, Taj)",
+        "50 golf rounds annually",
+        "Unlimited lounge access",
+        "0% forex markup",
+        "Health & wellness perks"
+      ],
+      "min_income": 350000,
+      "credit_score_required": 770,
+      "max_reward_cap": 200000
+    },
+    {
+      "name": "YES Private Credit Card",
+      "issuer": "YES Bank",
+      "joining_fee": 50000,
+      "annual_fee": 10000,
+      "reward_type": "travel",
+      "reward_rate": "20 points/₹200 domestic; 40 points/₹200 international",
+      "perks": [
+        "Lounge access with 12 guest passes",
+        "Luxury hotel privileges",
+        "Private air charter discounts",
+        "Golf benefits",
+        "Early spend bonus and welcome vouchers"
+      ],
+      "min_income": 400000,
+      "credit_score_required": 760,
+      "max_reward_cap": 120000
+    },
+    {
+      "name": "HSBC Taj Credit Card",
+      "issuer": "HSBC",
+      "joining_fee": 110000,
+      "annual_fee": 110000,
+      "reward_type": "travel",
+      "reward_rate": "5 points per ₹100 spent at participating hotels",
+      "perks": [
+        "Taj InnerCircle Platinum NeuPass",
+        "Free night stays at Taj",
+        "Unlimited lounge access",
+        "Chauffeur-driven transfers",
+        "Lifestyle brand discounts"
+      ],
+      "min_income": 600000,
+      "credit_score_required": 790,
+      "max_reward_cap": 250000
+    },
+    {
+      "name": "HDFC Diners Club Black Metal Edition",
+      "issuer": "HDFC",
+      "joining_fee": 10000,
+      "annual_fee": 10000,
+      "reward_type": "travel",
+      "reward_rate": "5 points/₹150 spent; up to 10X on SmartBuy",
+      "perks": [
+        "Unlimited international lounge access",
+        "Club Marriott, Amazon Prime, Swiggy One membership",
+        "6 golf games per quarter",
+        "Low forex markup (2%)"
+      ],
+      "min_income": 200000,
+      "credit_score_required": 750,
+      "max_reward_cap": 75000
+    },
+    {
+      "name": "ICICI Emeralde Private Credit Card",
+      "issuer": "ICICI",
+      "joining_fee": 12499,
+      "annual_fee": 12499,
+      "reward_type": "travel",
+      "reward_rate": "6 points per ₹200 spent",
+      "perks": [
+        "Taj Epicure membership",
+        "Unlimited lounge and golf access",
+        "EazyDiner membership",
+        "BookMyShow 1+1 ticket offer"
+      ],
+      "min_income": 250000,
+      "credit_score_required": 765,
+      "max_reward_cap": 100000
+    },
+    {
+      "name": "HDFC Regalia Gold Credit Card",
+      "issuer": "HDFC Bank",
+      "joining_fee": 2500,
+      "annual_fee": 2500,
+      "reward_type": "lifestyle/travel",
+      "reward_rate": "4 points per ₹150 on retail; 20 points per ₹150 at M&S, Myntra, Nykaa, Reliance Digital",
+      "perks": [
+        "Complimentary Swiggy One and MMT Black Gold memberships",
+        "₹1,500 vouchers per quarter on ₹1.5L spend",
+        "₹5,000 + ₹5,000 flight vouchers on ₹5L & ₹7.5L annual spend",
+        "12 complimentary domestic airport lounge visits/year",
+        "6 international lounge visits/year via Priority Pass",
+        "Flat 10% off at 35K+ restaurants (Good Food Trail Program)",
+        "1 Cr air accidental death cover; ₹15L overseas hospitalization cover"
+      ],
+      "min_income": 150000,
+      "credit_score_required": 750,
+      "max_reward_cap": null
+    },
+    {
+      "name": "ICICI HPCL Super Saver Credit Card",
+      "issuer": "ICICI",
+      "joining_fee": 500,
+      "annual_fee": 500,
+      "reward_type": "cashback + rewards",
+      "reward_rate": "5% cashback on HPCL fuel, 5% rewards on mobile/electricity/departmental bills, 2 RP per ₹100 on retail",
+      "perks": [
+        "5% cashback on fuel at HPCL via any bank POS or HP Pay (capped at ₹200/month)",
+        "1.5% extra reward via HP Pay app",
+        "5% back (in points) on mobile, electricity, departmental store bills (capped at ₹100 worth/month)",
+        "25% discount on BookMyShow & INOX (up to ₹100/twice/month each)",
+        "1 domestic lounge access/quarter on ₹75,000 quarterly spend",
+        "Annual fee waiver on ₹1,50,000 yearly spend"
+      ],
+      "min_income": null,
+      "credit_score_required": null,
+      "max_reward_cap": 300
+    },
+    {
+      "name": "Kotak Solitaire Credit Card",
+      "issuer": "Kotak Mahindra Bank",
+      "joining_fee": 0,
+      "annual_fee": 25000,
+      "reward_type": "travel",
+      "reward_rate": "10 Air Miles per ₹100 on travel via Kotak Unbox; 3 Air Miles per ₹100 on other spends",
+      "perks": [
+        "Unlimited domestic & international airport lounge access (primary + add-on)",
+        "4 complimentary guest lounge visits annually (2 domestic + 2 international)",
+        "Zero forex markup on international transactions",
+        "1% fuel surcharge waiver on spends ₹400–₹7500 (up to ₹10,000/year)",
+        "Hotel stay offers: 50% off second night, free third night at ITC, Elivaas, Alaya",
+        "Air Miles conversion: 1:1 for Air India, 2:1 for Etihad/Qatar/BA, 3:1 for Marriott, etc.",
+        "Flexible redemption: travel, vouchers, catalogue; 1 Air Mile ≈ ₹0.50",
+        "Consolidate reward points from other Kotak cards into Solitaire",
+        "Visa Infinite privileges (concierge, golf, lifestyle)"
+      ],
+      "min_income": 300000,
+      "credit_score_required": 750,
+      "max_reward_cap": 100000
+    },
+    {
+      "name": "MakeMyTrip ICICI Bank Credit Card",
+      "issuer": "ICICI",
+      "joining_fee": 999,
+      "annual_fee": 999,
+      "reward_type": "travel",
+      "reward_rate": "6% myCash on MMT hotels, 3% on MMT flights/cabs/buses/holidays, 1% elsewhere",
+      "perks": [
+        "8 complimentary domestic airport lounge visits annually",
+        "Low forex markup of 0.99%",
+        "MMT voucher worth ₹1,000 on joining",
+        "MMTBLACK Gold Membership for 1st year",
+        "Movie offer: Buy 1, get 25% off on 2nd ticket (₹150 max, twice/month on BookMyShow/INOX)",
+        "Annual fee waiver on ₹2.99 Lakh spend",
+        "25 myCash on every train booking via MMT"
+      ],
+      "min_income": 25000,
+      "credit_score_required": 700,
+      "max_reward_cap": null
+    },
+    {
+      "name": "AU LIT Credit Card",
+      "issuer": "AU Bank",
+      "joining_fee": 0,
+      "annual_fee": 0,
+      "reward_type": "customizable",
+      "reward_rate": "1 RP per ₹100 spent (base), 5% cashback on apparel/grocery, up to 10X RP on retail & contactless transactions",
+      "perks": [
+        "Customize card features based on lifestyle and budget",
+        "Earn up to 10,000 reward points per billing cycle",
+        "1% fuel surcharge waiver on ₹400–₹5,000 transactions",
+        "Milestone cashback: 5% cashback on ₹10,000 retail spend (₹500 max/30 days), 2% cashback on ₹15,000 spend (₹1,000 max/30 days)",
+        "5% additional cashback on apparel and grocery (₹500 cap per 30 days)",
+        "Up to 2 domestic airport lounge visits every 90 days",
+        "Credit shield coverage up to ₹1.5 lakh against fraud/loss after reporting",
+        "3-month free ZEE5 subscription (₹5,000 spend in 90 days to avoid charges)",
+        "3-month free Amazon Prime subscription (₹10,000 spend in 90 days to avoid charges)",
+        "Entertainment benefits (varied)"
+      ],
+      "min_income": 25000,
+      "credit_score_required": 700,
+      "max_reward_cap": "10,000 RP per billing cycle"
+    },
+    {
+      "name": "Kotak 811 #DreamDifferent Credit Card",
+      "issuer": "Kotak Mahindra Bank",
+      "joining_fee": 0,
+      "annual_fee": 0,
+      "reward_type": "general",
+      "reward_rate": "4 RP per ₹100 spent online, 1 RP per ₹100 spent offline",
+      "perks": [
+        "No joining or annual fee",
+        "UPI transactions enabled",
+        "Interest-free cash withdrawal for up to 48 days",
+        "Withdraw up to 90% of your credit limit without charges",
+        "Reward Points do not expire",
+        "Railway surcharge waiver: 1.8% on IRCTC website, 2.5% on counter bookings (max ₹500/year)",
+        "Fuel surcharge waiver: 1% for transactions between ₹500–₹3,000 (max ₹3,500/year)",
+        "Balance transfer facility with ₹349 processing fee per ₹10,000",
+        "No interest charged on fresh retail purchases after balance transfer",
+        "Earn 4 free PVR tickets every year if claimed within 3 months of card anniversary",
+        "PVR tickets valid for any show, any day, and transferable via Star Pass Code"
+      ],
+      "min_income": null,
+      "credit_score_required": null,
+      "max_reward_cap": null
+    },
+    {
+      "name": "RBL Bank BankBazaar SaveMax Credit Card",
+      "issuer": "RBL Bank",
+      "joining_fee": 0,
+      "annual_fee": 0,
+      "reward_type": "cashback + rewards",
+      "reward_rate": "10% cashback on Zomato and BookMyShow (up to ₹100/month each), 5 reward points/₹100 on grocery (1 RP = ₹0.20)",
+      "perks": [
+        "Lifetime-free credit card (₹0 joining and annual fee)",
+        "10% instant discount on BookMyShow (up to ₹100/month)",
+        "10% cashback on Zomato (up to ₹100/month)",
+        "Up to 1,000 reward points per month on grocery spends",
+        "Free Credit Advisory Report every month from BankBazaar",
+        "Current offers valid till 30th June 2025:",
+        "• 10% off on Swiggy Food (min. spend ₹600)",
+        "• Up to 27.5% off on select Samsung products (EMI only)",
+        "• 12% off on domestic flights on Yatra (EMI only)",
+        "• 12% off on domestic flights on EaseMyTrip (EMI only)",
+        "• Up to ₹8,000 off on Realme (min. spend ₹10,000, EMI only)"
+      ],
+      "min_income": null,
+      "credit_score_required": null,
+      "max_reward_cap": "1,000 reward points/month on grocery category"
+    },    
+    {
+      "name": "IndusInd Bank Platinum Card",
+      "issuer": "IndusInd Bank",
+      "joining_fee": 0,
+      "annual_fee": 0,
+      "reward_type": "cash and non-cash redemption",
+      "reward_rate": "1 RP = ₹0.40 (cash credit), 1 RP = ₹0.60 (non-cash redemption)",
+      "perks": [
+        "No joining fee. No annual fee. No hidden fee. It's lifetime FREE",
+        "Redeem reward points towards cash credit and non-cash options",
+        "Comprehensive insurance benefits",
+        "1% fuel-surcharge waiver at petrol bunks on transactions between ₹500 & ₹3,000, up to ₹100 per billing cycle",
+        "Multiple reward redemption options including IndusMoments, airline miles on Krisflyer, cash credit and pay with rewards",
+        "10% off on EazyDiner (min. spend of ₹2,000, valid till 31st July 2025)",
+        "₹500 off on Lifestyle (min. spend of ₹2,499, valid till 31st July 2025)",
+        "Up to ₹2,000 off at Reliance Digital (min. spend of ₹20,000, valid till 31st July 2025)",
+        "₹1,000 off on bill at Raymond stores (min. spend of ₹5,000, valid till 31st July 2025)"
+      ],
+      "min_income": null,
+      "credit_score_required": null,
+      "max_reward_cap": "2,500 reward points per month for cash redemption (effective 1st Sep 2024)"
+    },
+    {
+      "name": "ICICI Bank Platinum Chip Credit Card",
+      "issuer": "ICICI",
+      "joining_fee": 0,
+      "annual_fee": 0,
+      "reward_type": "reward points",
+      "reward_rate": "2 PAYBACK points per ₹100 on retail (except fuel), 1 point per ₹100 on insurance/utilities",
+      "perks": [
+        "1% fuel surcharge waiver at HPCL petrol pumps on transactions of ₹4,000 using ICICI merchant machines",
+        "Save 15% or more on dining via ICICI Culinary Treats at 2,500+ restaurants",
+        "Earn additional PAYBACK points via partner brands on same transaction",
+        "Redeem PAYBACK points for travel, lifestyle, electronics, vouchers, etc.",
+        "Chip + PIN security for enhanced protection"
+      ],
+      "min_income": null,
+      "credit_score_required": 700,
+      "max_reward_cap": null
+    },
+    {
+      "name": "IDFC FIRST Select Credit Card",
+      "issuer": "IDFC FIRST Bank",
+      "joining_fee": 0,
+      "annual_fee": 0,
+      "reward_type": "lifestyle",
+      "reward_rate": "10X on birthday spends and spends over ₹20,000/month, 6X on online, 3X offline, 1 RP per ₹100 base",
+      "perks": [
+        "Welcome vouchers worth ₹500 on spending ₹15,000 within 90 days",
+        "5% cashback on first EMI transaction within 90 days",
+        "10X reward points on birthday and spends above ₹20,000",
+        "6X rewards on online purchases, 3X on offline",
+        "1 reward point per ₹100 spent (base rate)",
+        "Interest-free ATM cash withdrawals for up to 48 days in India",
+        "Buy 1 get 1 free movie ticket (up to ₹250, twice/month)",
+        "Up to 15% off at 3,000+ wellness outlets",
+        "Up to 20% off at 1,500+ restaurants",
+        "Fuel surcharge waiver up to ₹300/month",
+        "Complimentary roadside assistance worth ₹1,399",
+        "4 complimentary domestic airport lounge visits per quarter",
+        "4 complimentary railway lounge accesses per quarter",
+        "Personal accident insurance cover of ₹5 lakh",
+        "Lost card liability cover up to ₹50,000"
+      ],
+      "min_income": null,
+      "credit_score_required": 700,
+      "max_reward_cap": null
+    },      
+    {
+      "name": "IDFC FIRST Millennia Credit Card",
+      "issuer": "IDFC FIRST Bank",
+      "joining_fee": 0,
+      "annual_fee": 0,
+      "reward_type": "points",
+      "reward_rate": "10X on birthdays and online spends (6X), 3X on offline, 1 point per ₹100 on all spends",
+      "perks": [
+        "Welcome vouchers worth ₹500 on spending ₹15,000 in 90 days",
+        "5% cashback on first EMI transaction within 90 days",
+        "10X reward points on spends above ₹20,000/month",
+        "Interest-free ATM withdrawals for up to 48 days",
+        "25% discount on movie tickets (up to ₹100/month)",
+        "Up to 20% off at 1,500 restaurants across India",
+        "15% off at 3,000+ health and wellness outlets",
+        "Fuel surcharge waiver up to ₹300/month",
+        "4 complimentary railway lounge visits per quarter",
+        "Personal accident cover of ₹5 lakh",
+        "Lost card liability cover of up to ₹25,000"
+      ],
+      "min_income": 25000,
+      "credit_score_required": 700,
+      "max_reward_cap": null
+    }
+         
+  ]
+  

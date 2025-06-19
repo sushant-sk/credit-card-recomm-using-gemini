@@ -1,0 +1,165 @@
+/* ChatWindow.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+.chat-container {
+  padding: 1.5rem;
+  max-width: 640px;
+  margin: auto;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+}
+
+.chat-box {
+  background: linear-gradient(to bottom right, #f8f9ff, #eef2ff);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  padding: 1.25rem;
+  /* height:80vh;
+  overflow-y: auto; */
+  border: 1px solid #dbeafe;
+  transition: box-shadow 0.3s ease;
+}
+
+.chat-box:hover {
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.form-input {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: 1px solid #c7d2fe;
+  border-radius: 12px;
+  font-size: 1rem;
+  background-color: #ffffff;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+  outline: none;
+}
+
+.form-input:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.2);
+}
+
+.send-button {
+  background: linear-gradient(to right, #6366f1, #4f46e5);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.25rem;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.send-button:hover {
+  background: linear-gradient(to right, #4f46e5, #4338ca);
+  transform: translateY(-1px);
+}
+
+/* Better spacing between messages */
+.chat-box > div {
+  margin-bottom: 0.75rem;
+}
+
+/* Style for the recommendation heading outside the box */
+.recommendation-heading {
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #1e3a8a;
+  text-align: center;
+  background-color: #e0e7ff;
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.chat-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.chat-layout {
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+  max-width: 1200px;
+  align-items: flex-start;
+}
+
+  .chat-left {
+    border-right: 1px solid #e5e7eb;
+    padding-right: 1rem;
+    transition: all 0.3s ease;
+  }
+
+  .chat-layout.centered .chat-left {
+    flex: unset;
+    max-width: 600px;
+    width: 100%;
+    border-right: none;
+    padding-right: 0;
+  }
+
+  .chat-layout.with-right .chat-left {
+    flex: 1;
+  }
+
+
+.chat-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  margin-top: 0;
+  padding-top: 0;
+  flex: 1;
+  padding-left: 1rem;
+}
+
+.recommendation-heading {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.5rem;
+  margin: 0;            /* Remove any top margin */
+  padding: 0;
+}
+
+.loading-box {
+  padding: 1.5rem;
+  background-color: #fefce8;
+  border: 1px solid #fde68a;
+  color: #92400e;
+  border-radius: 12px;
+  font-weight: 500;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  font-size: 1rem;
+  animation: pulse 1s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0% { opacity: 0.6; }
+  50% { opacity: 1; }
+  100% { opacity: 0.6; }
+}
+/* Center the chat box initially */
+.chat-layout.centered {
+  justify-content: center;
+}
+
+/* Standard two-column layout when loading or cards appear */
+.chat-layout.with-right {
+  justify-content: space-between;
+}
